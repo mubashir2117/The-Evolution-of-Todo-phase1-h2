@@ -1,4 +1,4 @@
-# The Evolution of Todo - Phase 1
+# The Evolution of Todo - Hackathon2 Phase 1
 
 A console-based todo application with in-memory storage for basic task management. This is Phase 1 of a planned evolution series, focusing on core CRUD operations through a simple command-line interface.
 
@@ -15,12 +15,6 @@ A console-based todo application with in-memory storage for basic task managemen
 ### Requirements
 - Python 3.9 or higher
 
-### Setup
-1. Clone the repository:
-```bash
-git clone https://github.com/mubashir2117/The-Evolution-of-Todo.git
-cd The-Evolution-of-Todo
-```
 
 2. No additional dependencies required - uses Python standard library only
 
@@ -93,29 +87,6 @@ Each task contains:
 - **Title**: Required string (1-200 characters)
 - **Description**: Optional string (no length limit)
 - **Completed**: Boolean status (defaults to False)
-
-## Important Notes
-
-- **In-Memory Storage**: All task data is stored in memory and is lost when the application exits
-- **Single Session**: Designed for single-user, single-session use
-- **No Persistence**: Data persistence is out of scope for Phase 1
-
-## Project Structure
-
-```
-.
-├── main.py              # Main application entry point
-├── test_main.py         # Unit tests for core functions
-├── test_mvp.py          # MVP integration tests
-├── specs/               # Feature specifications and design artifacts
-│   └── 001-todo-console/
-│       ├── spec.md      # Feature specification
-│       ├── plan.md      # Architecture plan
-│       ├── tasks.md     # Implementation tasks
-│       └── contracts/   # API contracts
-├── .specify/            # SpecKit Plus configuration
-└── history/             # Prompt history and records
-```
 
 ## Spec-Driven Development
 
