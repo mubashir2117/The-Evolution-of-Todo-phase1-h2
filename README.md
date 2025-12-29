@@ -111,10 +111,4 @@ This project follows Spec-Driven Development (SDD) methodology:
 
 This project is open source and available under the MIT License.
 
-## Contributing
-
-Contributions are welcome! This is an evolving project designed to demonstrate progressive feature development and architectural decisions.
-
----
-
 **Branch**: `001-todo-console` | **Status**: Phase 1 Complete
