@@ -28,6 +28,8 @@ def _display_menu() -> None:
     print("4. Update Task")
     print("5. Delete Task")
     print("6. Exit")
+    print("===========")
+
 
 def _get_menu_choice() -> int | None:
     """Get and validate user's menu choice.
